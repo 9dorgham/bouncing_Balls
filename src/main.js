@@ -165,7 +165,7 @@ class EvilCircle extends Shape {
 const evil = new EvilCircle(random(10, width), random(10, height));
 
 function createBalls() {
-    while (balls.length < 1) {
+    while (balls.length < 10) {
         let size = random(10, 20)
         let ball = new Ball(
             random(0 + size, width - size),
